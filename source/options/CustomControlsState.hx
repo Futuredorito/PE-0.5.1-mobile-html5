@@ -88,8 +88,6 @@ class CustomControlsState extends MusicBeatSubstate
 		left_text = new FlxText(200, 300, 0,"Button left x:" + _pad.buttonLeft.x +" y:" + _pad.buttonLeft.y, 24);
 		right_text = new FlxText(200, 350, 0,"Button right x:" + _pad.buttonRight.x +" y:" + _pad.buttonRight.y, 24);
 		
-		//hitboxes
-
 
 		// buttons
 
