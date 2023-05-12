@@ -10,7 +10,6 @@ import ui.FlxVirtualPad;
 import flixel.util.FlxSave;
 import flixel.math.FlxPoint;
 import haxe.Json;
-import ui.Hitbox;
 import Config;
 #if html5
 import lime.system.Clipboard;
@@ -22,7 +21,6 @@ class CustomControlsState extends MusicBeatSubstate
 {
 
 	var _pad:FlxVirtualPad;
-	var _hb:Hitbox;
 
 	var exitbutton:FlxUIButton;
 	var exportbutton:FlxUIButton;
@@ -92,8 +90,6 @@ class CustomControlsState extends MusicBeatSubstate
 		
 		//hitboxes
 
-		_hb = new Hitbox();
-		_hb.visible = false;
 
 		// buttons
 
@@ -125,8 +121,6 @@ class CustomControlsState extends MusicBeatSubstate
 		// add virtualpad
 		this.add(_pad);
 
-		//add hb
-		add(_hb);
 
 
 		// add arrows and text
@@ -190,8 +184,6 @@ class CustomControlsState extends MusicBeatSubstate
 					
 					return;
 				}
-			
-			_hb.visible = false;
 	
 			switch curSelected{
 				case 0:
@@ -217,7 +209,6 @@ class CustomControlsState extends MusicBeatSubstate
 				case 4:
 					remove(_pad);
 					_pad.alpha = 0;
-					_hb.visible = true;
 
 			}
 	
@@ -407,3 +398,5 @@ class CustomControlsState extends MusicBeatSubstate
 		super.destroy();
 	}
 }
+
+			
