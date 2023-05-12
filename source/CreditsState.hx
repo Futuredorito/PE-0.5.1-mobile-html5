@@ -80,11 +80,13 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
-			['Psych Engine iOS and HTML5'],
+			['Psych Engine HTML5'],
 			['UNSTOP4BLE',		    'unstop4ble',		'Main Coder of The Port',	 'https://www.youtube.com/channel/UCR4wDMrnfOPhW-zZQtNU4iA',	    'CFB46B'],
 			['g3om3trycr3ator',		'g3yt',				'Secondary Coder',			 'https://www.youtube.com/channel/UCo6nbxU6x_YXaHVj78e7_vg',	    'C3DDFE'],
 			['Psych Engine Android'],
-			['M.A. Jigsaw',		    'majigsaw',		    'Main Coder of The Android Port, without him the iOS and HTML5 port whouldnt be possible',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	    'F73838'],
+			['M.A. Jigsaw',		    'majigsaw',		    'Main Coder of The Android Port, without him the HTML5 port whouldnt be possible',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	    'F73838'],
+			['HTML5 Contributors'],
+			['FutureDorito',		    'futuredorito',		'Fixing crash',	 'https://www.youtube.com/channel/UCR4wDMrnfOPhW-zZQtNU4iA',	    'CFB46B'],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',						'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',					'https://twitter.com/river_oaken',		'C30085'],
