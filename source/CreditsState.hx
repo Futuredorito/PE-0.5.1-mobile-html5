@@ -86,7 +86,7 @@ class CreditsState extends MusicBeatState
 			['Psych Engine Android'],
 			['M.A. Jigsaw',		    'majigsaw',		    'Main Coder of The Android Port, without him the HTML5 port whouldnt be possible',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	    'F73838'],
 			['HTML5 Contributors'],
-			['FutureDorito',		    'futuredorito',		'Fixing crash',	 'https://www.youtube.com/channel/UCR4wDMrnfOPhW-zZQtNU4iA',	    'CFB46B'],
+			['FutureDorito',		    'futuredorito',		'Fixing crash',	 'https://www.youtube.com/channel/UCgZ-u34neq_Ctgok819sbDw',	    'CFB46B'],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',						'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',					'https://twitter.com/river_oaken',		'C30085'],
